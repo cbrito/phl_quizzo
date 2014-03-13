@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  address: MyText
+  phone_number: MyText
+  quizzo_starts_at: 2014-03-13 23:07:50
+
+two:
+  name: MyText
+  address: MyText
+  phone_number: MyText
+  quizzo_starts_at: 2014-03-13 23:07:50
