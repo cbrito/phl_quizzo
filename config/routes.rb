@@ -1,5 +1,11 @@
 PhlQuizzo::Application.routes.draw do
-  resources :venues
+  resources :venues do
+  #->Prelang (voting/acts_as_votable)
+  member do
+    get "vote"
+  end
+end
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
